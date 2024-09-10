@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Animatedcontainer extends StatefulWidget {
-  const Animatedcontainer({super.key});
+class AnimatedcontainerWidget extends StatefulWidget {
+  const AnimatedcontainerWidget({super.key});
 
   @override
-  State<Animatedcontainer> createState() => _AnimatedcontainerState();
+  State<AnimatedcontainerWidget> createState() => _AnimatedcontainerState();
 }
 
-class _AnimatedcontainerState extends State<Animatedcontainer> {
+class _AnimatedcontainerState extends State<AnimatedcontainerWidget> {
 
 
   bool isSelected = false;
